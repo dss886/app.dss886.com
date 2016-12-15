@@ -13,6 +13,7 @@
 
 		<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="./assets/main.js"></script>
 	</head>
 	<body>
 		<div id="content">
@@ -22,8 +23,8 @@
 						<div class="headline">
 							<h1>北邮人论坛</h1>
 							<h3>官方客户端 - 北邮人团队出品</h3>
-							<a class="btn btn-default btn-download" href="https://itunes.apple.com/cn/app/bei-you-ren-lun-tan-bei-you/id1115232927" role="button">iOS 下载</a>
-							<a class="btn btn-default btn-download" href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/Beta11/BYR-BBS-APP-Beta11-Build18.apk" role="button">Android 下载</a>
+							<a id="ios-btn" class="btn btn-default btn-download" href="javascript:void(0);" role="button" onclick="ios_click()">iOS 下载</a>
+							<a id="android-btn" class="btn btn-default btn-download" href="javascript:void(0);" role="button" onclick="android_click()">Android 下载</a>
 						</div>
 					</div>
 					<div class="col-md-6 col-xs-12 phone-col">
@@ -40,9 +41,12 @@
 			</svg>
 			<div class="container">
 				<div class="footer">
-					<p>© 2016 · Powered By dss886 · ALL RIGHTS RESERVED</p>
+					<p>© 2016 · Powered by dss886 · ALL RIGHTS RESERVED</p>
 				</div>
 			</div>
+		</div>
+		<div id="weixin-tip">
+			<p>it is open in weixin</p>
 		</div>
 	</body>
 </html>
