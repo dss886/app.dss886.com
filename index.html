@@ -13,24 +13,6 @@
 
 		<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-
-		<script>
-			$(document).ready(function(){
-		        function is_weixin(){
-				    var ua = navigator.userAgent.toLowerCase();
-				    if(ua.match(/MicroMessenger/i)=="micromessenger") {
-				        return true;
-				    } else {
-				        return false;
-				    }
-				}
-				if (is_weixin()) {
-					$("#content").css("display", 'none');
-					$("#weixin-tip").css("display", "block");
-				}
-			});
-		</script>
-		
 	</head>
 	<body>
 		<div id="content">
@@ -61,9 +43,6 @@
 					<p>© 2016 · Powered By dss886 · ALL RIGHTS RESERVED</p>
 				</div>
 			</div>
-		</div>
-		<div id="weixin-tip">
-			
 		</div>
 	</body>
 </html>
