@@ -2,18 +2,23 @@ body {
     font-family: Helvetica,微软雅黑,Microsoft YaHei;
 }
 
-.main-header, .product-header {
+#weixin-tip {
+	display: none;
+}
+
+.main-header {
     background-image: url(./header-icons.png);
     background-color: #21cdb2;
     background-position-y: 120px;
     background-repeat: no-repeat;
     color: #fff;
     min-height: 21.25em;
-    padding: 5.25em 0 20%;
+    padding: 5.25em 0 5%;
 }
 
 .main-header .headline, .product-header .headline {
-    padding-top: 13%;
+    padding-top: 25%;
+    text-align: center;
 }
 
 .headline h1 {
@@ -24,7 +29,7 @@ body {
 
 .headline h3 {
     opacity: .8;
-    margin: 24px 0 48px;
+    margin: 24px 0 36px;
     font-size: 28px;
     letter-spacing: 4px;
 }
@@ -41,24 +46,48 @@ body {
 
 .btn-download {
 	width: 200px;
-	margin: 12px 0px;
+	margin: 12px 8px;
 }
 
-@media (max-width: 480px)
-.main-header img {
-    position: relative;
-    top: 40px;
-    margin-right: 0;
-    margin-left: auto;
-    max-width: 100%;
+.phone-col {
+	margin: 12px 0;
+	text-align: center;
 }
 
-.main-header img {
-    max-width: 52%;
-    position: absolute;
-    top: 138px;
-    right: 0;
+.phone-wrapper {
+	display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    border-bottom: solid 16px #FFF;
+    border-top: solid 18px #FFF;
+    border-left: solid 1px #FFF;
+    border-right: solid 1px #FFF;
+    background: #fff;
+    box-shadow: 0 5px 58px 0 rgba(0,0,0,.22);
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+div.phone-sign {
+    border-radius: 6px;
+    border: 2px solid #D6D6D6;
+    width: 100px;
+    height: 10px;
     z-index: 1;
+    display: inline-block;
+    background: #fff;
+}
+
+div.phone-top {
+	margin-bottom: 12px;
+}
+
+div.phone-bottom {
+	margin-top: 18px;
+}
+
+.phone-wrapper img {
+	width: 100%;
 }
 
 div[class$=-header]+.divider {
@@ -82,7 +111,7 @@ div[class$=-header]+.divider polygon {
 	font-size: 12px; 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 	.main-header {
 	    margin-top: 0;
 	    padding-top: 0;
@@ -90,14 +119,7 @@ div[class$=-header]+.divider polygon {
 
 	.btn-download {
 		width: 100%;
-	}
-
-	.main-header img {
-	    position: relative;
-	    top: 40px;
-	    margin-right: 0;
-	    margin-left: auto;
-	    max-width: 100%;
+		margin: 12px 0;
 	}
 
 	.headline {
