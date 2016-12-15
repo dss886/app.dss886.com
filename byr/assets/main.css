@@ -3,10 +3,6 @@ body {
     background: #FFF;
 }
 
-#weixin-tip {
-	display: none;
-}
-
 .main-header {
     background-image: url(./header-icons.png);
     background-color: #21cdb2;
@@ -136,4 +132,36 @@ div[class$=-header]+.divider polygon {
 		font-size: 18px;
 		margin: 20px 0 36px;
 	}
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+
+#weixin-tip {
+    position: fixed;
+    text-align:center;
+    width:80%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    padding: 16px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#weixin-tip p {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.modal-dialog {
+    height: 100%;
+}
+
+.modal-content {
+    height: 100%;
 }
