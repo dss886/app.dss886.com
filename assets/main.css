@@ -1,0 +1,116 @@
+body {
+    font-family: Helvetica,微软雅黑,Microsoft YaHei;
+}
+
+.main-header, .product-header {
+    background-image: url(./header-icons.png);
+    background-color: #21cdb2;
+    background-position-y: 120px;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 21.25em;
+    padding: 5.25em 0 20%;
+}
+
+.main-header .headline, .product-header .headline {
+    padding-top: 13%;
+}
+
+.headline h1 {
+	margin: 0;
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+
+.headline h3 {
+    opacity: .8;
+    margin: 24px 0 48px;
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+.btn-default, .btn-default:hover {
+	color: #21cdb2;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 40px;
+}
+
+.btn-download {
+	width: 200px;
+	margin: 12px 0px;
+}
+
+@media (max-width: 480px)
+.main-header img {
+    position: relative;
+    top: 40px;
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.main-header img {
+    max-width: 52%;
+    position: absolute;
+    top: 138px;
+    right: 0;
+    z-index: 1;
+}
+
+div[class$=-header]+.divider {
+    position: relative;
+    overflow: visible!important;
+}
+
+div[class$=-header]+.divider polygon {
+    position: absolute;
+    fill: #fff;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.footer {
+	width: 100%;
+	color: #888;
+	text-align: center;
+	clear:both;
+	bottom: 0px;
+	font-size: 12px; 
+}
+
+@media (max-width: 480px) {
+	.main-header {
+	    margin-top: 0;
+	    padding-top: 0;
+	}
+
+	.btn-download {
+		width: 100%;
+	}
+
+	.main-header img {
+	    position: relative;
+	    top: 40px;
+	    margin-right: 0;
+	    margin-left: auto;
+	    max-width: 100%;
+	}
+
+	.headline {
+	    max-width: 100%;
+	    text-align: center;
+	}
+
+	.headline h1 {
+		font-size: 40px;
+	}
+
+	.headline h3 {
+		font-size: 18px;
+		margin: 20px 0 36px;
+	}
+}
