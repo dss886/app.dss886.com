@@ -12,7 +12,6 @@ function is_weixin(){
 }
 
 function ios_click(){
-	_czc.push(['_trackEvent', '下载', '点击下载', 'ios','ios','ios-btn']);
 	if (is_weixin()) {
 		_czc.push(['_trackEvent', '下载', '下载跳转', 'ios','weixin','ios-btn']);
 		$("#weixin-browser").html("选择「在Safari中打开」")
@@ -24,7 +23,6 @@ function ios_click(){
 }
 
 function android_click(){
-	_czc.push(['_trackEvent', '下载', '点击下载', 'android','android','android-btn']);
 	if (is_weixin()) {
 		_czc.push(['_trackEvent', '下载', '下载跳转', 'android','weixin','ios-btn']);
 		$("#weixin-browser").html("选择「在浏览器中打开」")
