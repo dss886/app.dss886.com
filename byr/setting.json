@@ -2,7 +2,7 @@
 	"app_version_code": 19,
 	"app_version_name": "v1.0.0",
 	"app_update_info": "测试自动更新功能",
-	"app_download_url": "https://github.com/dss886/BYR-BBS-APP-Release/releases/download/Beta11/BYR-BBS-APP-Beta11-Build18.apk",
+	"app_download_url": "http://app.dss886.com/byr",
 	"config_board_version": 1,
 	"config_board_url": "http://app.dss886.com/byr/config_board.xml"
 }
