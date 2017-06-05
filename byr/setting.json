@@ -1,7 +1,7 @@
 {
 	"app_version_code": 19,
 	"app_version_name": "Beta12",
-	"app_update_info": "1. 关注、粉丝功能上线\n2. 发帖界面增加了富文本工具栏\n3. 文章页增加复制帖子链接功能\n4. 整体UI细节调整，现在看起来更舒服了\n5. 修复了若干有可能导致崩溃的问题",
+	"app_update_info": "1. 关注、粉丝功能上线\n2. 发帖界面增加了富文本工具栏\n3. 文章页增加复制帖子链接功能\n4. UI细节调整，现在看起来更舒服了\n5. 修复了若干有可能导致崩溃的问题",
 	"app_download_url": "http://app.dss886.com/byr",
 	"config_board_version": 1,
 	"config_board_url": "http://app.dss886.com/byr/config_board.xml"
