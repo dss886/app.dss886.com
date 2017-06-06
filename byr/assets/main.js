@@ -36,3 +36,16 @@ function android_click(){
 		window.location.href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/Beta11/BYR-BBS-APP-Beta11-Build18.apk"
 	}
 }
+
+function android_dev_click(){
+    if (is_weixin()) {
+        _czc.push(['_trackEvent', 'AndroidDev', '微信提示']);
+        TDAPP.onEvent("AndroidDev", '微信提示');
+        $("#weixin-browser").html("选择「在浏览器中打开」")
+        $("#bottom-modal").modal("show");
+    } else {
+        _czc.push(['_trackEvent', 'AndroidDev', '下载跳转']);
+        TDAPP.onEvent("AndroidDev", '下载跳转');
+        window.location.href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/Alpha12/BYR-BBS-APP-Alpha12-Build19.apk"
+    }
+}

@@ -46,6 +46,10 @@ body {
 	margin: 12px 8px;
 }
 
+.btn-download-dev {
+    width: 400px;
+}
+
 .phone-col {
 	margin: 36px 0;
 	text-align: center;
