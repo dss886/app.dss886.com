@@ -33,7 +33,7 @@ function android_click(){
 	} else {
 		_czc.push(['_trackEvent', 'Android', '下载跳转']);
 		TDAPP.onEvent("Android", '下载跳转');
-		window.location.href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/Beta11/BYR-BBS-APP-Beta11-Build18.apk"
+		window.location.href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/v0.5.0/BYR-BBS-APP-v0.5.0.apk"
 	}
 }
 
@@ -46,6 +46,6 @@ function android_dev_click(){
     } else {
         _czc.push(['_trackEvent', 'AndroidDev', '下载跳转']);
         TDAPP.onEvent("AndroidDev", '下载跳转');
-        window.location.href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/Alpha12/BYR-BBS-APP-Alpha12-Build19.apk"
+        window.location.href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/v0.5.0/BYR-BBS-APP-v0.5.0.apk"
     }
 }
