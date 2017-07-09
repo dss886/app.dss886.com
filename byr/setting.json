@@ -5,5 +5,5 @@
   "app_download_url": "http://app.dss886.com/byr",
   "config_board_version": 1,
   "config_board_url": "http://app.dss886.com/byr/config_board.xml",
-  "use_byr_welcome_api": false
+  "use_byr_welcome_api": true
 }
