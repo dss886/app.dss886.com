@@ -1,9 +1,10 @@
 {
-  "app_version_code": 500,
-  "app_version_name": "v0.5.0",
-  "app_update_info": "1. 关注、粉丝功能上线\n2. 发帖界面增加了富文本工具栏\n3. 文章页增加复制帖子链接功能\n4. UI细节调整，现在看起来更舒服了\n5. 修复了若干有可能导致崩溃的问题",
+  "app_version_code": 600,
+  "app_version_name": "v0.6.0",
+  "app_update_info": "1. 增加文章的编辑和删除功能\n2. 支持了论坛开屏图\n3. 增加检查版本更新功能\n4. 错误修正和细节优化",
   "app_download_url": "http://app.dss886.com/byr",
   "config_board_version": 1,
   "config_board_url": "http://app.dss886.com/byr/config_board.xml",
+  "welcome_cover": "default",
   "use_byr_welcome_api": true
 }
