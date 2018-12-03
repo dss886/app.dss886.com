@@ -1,10 +1,6 @@
 {
-  "app_version_code": 600,
-  "app_version_name": "v0.6.0",
-  "app_update_info": "1. 增加文章的编辑和删除功能\n2. 支持了论坛开屏图\n3. 增加检查版本更新功能\n4. 错误修正和细节优化",
-  "app_download_url": "http://app.dss886.com/byr",
-  "config_board_version": 1,
-  "config_board_url": "http://app.dss886.com/byr/config_board.xml",
-  "welcome_cover": "default",
-  "use_byr_welcome_api": true
+  "app_version_code": 701,
+  "app_version_name": "v0.7.0",
+  "app_update_info": "1. 踩贴功能上线\n2. 优化了悄悄话版的回复体验\n3. 修复了微信公众号链接参数错误的问题\n4. 修复了一些可能导致崩溃的问题",
+  "app_download_url": "http://app.dss886.com/byr"
 }

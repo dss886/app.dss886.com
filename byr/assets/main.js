@@ -25,14 +25,14 @@ function ios_click(){
 }
 
 function android_click(){
-	// if (is_weixin()) {
-	// 	_czc.push(['_trackEvent', 'Android', '微信提示']);
-	// 	TDAPP.onEvent("Android", '微信提示');
-	// 	$("#weixin-browser").html("选择「在浏览器中打开」")
-	// 	$("#bottom-modal").modal("show");
-	// } else {
+	if (is_weixin()) {
+		_czc.push(['_trackEvent', 'Android', '微信提示']);
+		TDAPP.onEvent("Android", '微信提示');
+		$("#weixin-browser").html("选择「在浏览器中打开」")
+		$("#bottom-modal").modal("show");
+	} else {
 		_czc.push(['_trackEvent', 'Android', '下载跳转']);
 		TDAPP.onEvent("Android", '下载跳转');
 		window.location.href="https://sj.qq.com/myapp/detail.htm?apkName=cn.byr.bbs.app"
-	// }
+	}
 }
