@@ -33,6 +33,6 @@ function android_click(){
 	} else {
 		_czc.push(['_trackEvent', 'Android', '下载跳转']);
 		TDAPP.onEvent("Android", '下载跳转');
-		window.location.href="https://github.com/dss886/BYR-BBS-APP-Release/releases/download/v0.6.0/BYR-BBS-APP-v0.6.0.apk"
+		window.location.href="https://sj.qq.com/myapp/detail.htm?apkName=cn.byr.bbs.app"
 	}
 }
