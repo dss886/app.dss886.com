@@ -1,6 +1,6 @@
 {
-  "app_version_code": 701,
-  "app_version_name": "v0.7.0",
-  "app_update_info": "1. 踩贴功能上线\n2. 优化了悄悄话版的回复体验\n3. 修复了微信公众号链接参数错误的问题\n4. 修复了一些可能导致崩溃的问题",
+  "app_version_code": 801,
+  "app_version_name": "v0.8.0",
+  "app_update_info": "1. 支持分享到飞聊\n2. 优化了升级提醒弹窗的逻辑\n3. 优化了一些UI问题\n4. 修复了一些Crash",
   "app_download_url": "http://app.dss886.com/byr"
 }
