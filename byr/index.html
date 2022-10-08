@@ -29,6 +29,7 @@
 		<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 		<script src="https://sdk.talkingdata.com/app/h5/v1?appid=BD43FBDE61204045807D69446D94C036&vn=1.0.0&vc=1.0.0"></script>
+		<script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
 		<script src="./assets/main.js"></script>
 	</head>
 	<body>
@@ -41,6 +42,7 @@
 							<h3>官方客户端 - 北邮人团队出品</h3>
 							<a id="ios-btn" class="btn btn-default btn-download" href="javascript:void(0);" role="button" onclick="ios_click()">iOS 下载</a>
 							<a id="android-btn" class="btn btn-default btn-download" href="javascript:void(0);" role="button" onclick="android_click()">Android 下载</a>
+                            <a id="wxapp-btn" class="btn btn-default btn-download btn-download-wxapp" href="javascript:void(0);" role="button" onclick="wxapp_click()">微信小程序<div class="btn-tag">beta</div></a>
 						</div>
 					</div>
 					<div class="col-md-6 col-xs-12 phone-col">
@@ -64,10 +66,8 @@
 		<!-- Modal -->
 		<div class="modal out" id="bottom-modal" tabindex="-1" role="dialog">
 		  <div class="modal-dialog">
-		  	<div id="weixin-tip">
-				<p>请点击右上角的菜单按钮</p>
-				<p id="weixin-browser">选择「在浏览器中打开」</p>
-			</div>
+            <p id="dialog-tips">请点击右上角的菜单按钮</p>
+            <img id="wxapp_qrcode" src="assets/wxapp_qrcode.jpeg"/>
 		  </div>
 		</div>
 		<div style="display:none">

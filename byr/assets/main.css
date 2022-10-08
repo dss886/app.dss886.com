@@ -38,7 +38,9 @@ body {
     border-radius: 25px;
     font-size: 16px;
     font-weight: 700;
+    line-height: 24px;
     padding: 12px 40px;
+    text-align: center;
 }
 
 .btn-download {
@@ -46,8 +48,19 @@ body {
 	margin: 12px 8px;
 }
 
-.btn-download-dev {
-    width: 400px;
+.btn-download-wxapp {
+    width: 424px;
+}
+
+.btn-tag {
+    font-size: 12px;
+    color: #FFFFFFDF;
+    background-color: #21cdb2;
+    padding: 0px 8px;
+    margin-left: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    transform: scale(0.9) translateY(-2px);
 }
 
 .phone-col {
@@ -143,29 +156,22 @@ div[class$=-header]+.divider polygon {
     opacity: .8;
 }
 
-#weixin-tip {
+.modal.in .modal-dialog {
     position: fixed;
     text-align:center;
     width:80%;
-    height: 30%;
-    top: 50%;
+    top: 40%;
     left: 50%;
     padding: 16px;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    transform: translate(-50%, -50%);
 }
 
-#weixin-tip p {
+#dialog-tips {
     font-size: 18px;
     color: #FFF;
 }
 
-.modal-dialog {
-    height: 100%;
-}
-
-.modal-content {
-    height: 100%;
+#wxapp_qrcode {
+    width:80%;
+    margin-top: 8px;
 }
